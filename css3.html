@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade css3</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+
+            header{
+                background-color: rgb(36, 36, 36);
+                padding: 10px;
+            }
+
+            .nav1{
+                background-color: black;
+                padding: 12px;
+                font-size: 11px;
+            }
+
+            .div1{
+                float: left;
+                color:lightskyblue;
+                font-weight: bold;
+                
+            }
+
+            .div2{
+                text-align: center;
+                color:white;
+            }
+
+            .ul1{
+                display: inline;
+                list-style: none;
+                padding-left: 5px;
+                padding-left: 15px;
+            }
+
+            .nav2{
+                background-color: rgb(43, 60, 117);
+                overflow: hidden;
+                border-top: 3px solid gray;
+                border-bottom: 3px solid gray;
+                font-size: 12px;
+                padding-left: 10px;
+                        
+            }
+
+            .nav2 a {
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                padding-left: 30px;
+                font-family: verdana;
+                
+            }
+
+            .nav2 a:hover {
+                background-color: rgb(70, 89, 153);
+                color: white;
+            }
+
+            main{
+                background-color: white;   
+                padding: 10px;
+    
+            }
+            article{
+                background-color: rgb(231, 231, 231);
+                width: 65% ;
+                height: 400px ;
+                border:20px solid rgb(199, 195, 195);
+
+            }
+        
+
+            h1{
+                color: rgb(130, 179, 196);
+                text-align: center;
+                padding-top: 20px;
+                padding: 50px;
+                font-size: 32px;
+            }
+
+            .coluna{
+                float: left;
+                width: 25%;
+
+            }
+
+            #textos{
+                padding-left: 100px;
+                padding-right: 100px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .p{
+                padding: 5px;
+            }
+        
+            aside{
+                background-color: rgb(43, 60, 117);
+                float:right;
+                width: 28%;
+                height: 460px;
+             
+            }
+
+            .ul2{
+                color: lightskyblue;
+                font-size: 11px;
+                list-style-position: inside;
+                font-family: verdana;
+            }
+
+            .div3{
+                padding: 15px;
+            }
+
+            .footer1{
+                background-color: black;
+                width: 100%;
+                padding: 5px;
+                font-size: 14px;
+                
+                color: white;
+            }
+
+            .footer2{
+                background-color: rgb(36, 36, 36);
+                width: 100%;
+                padding: 14px;
+                
+                
+
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <header class="header">
+        </header>
+
+        <nav class="nav1">
+            <ul>
+                <div class="div1">
+                    <li class="ul1">Uol</li>
+                    <li class="ul1">Bol</li>
+                    <li class="ul1">Globo</li>
+                    <li class="ul1">Yahoo</li>
+                </div>
+
+                <div class="div2">
+                    <li class="ul1">10 de novembro de 2019</li>
+                </div>
+            </ul>
+        </nav>
+
+        <nav class="nav2">
+          
+                <a href="#">Home</a>
+                <a href="#">Troféu</a>
+                <a href="#">História</a>
+                <a href="#">Conselho</a>
+           
+        </nav>
+
+    </body>
+        <aside>
+            <div class="div3">
+            <ul>
+                <li class="ul2">Feed</li>
+                <li class="ul2">Notícias</li>
+                <li class="ul2">Comédia</li>
+            </ul>
+            </div>
+
+        </aside>
+
+        <main>
+            <article>
+                
+                
+                    <h1>O Time</h1>
+                    <div id="textos">
+                    <div class="coluna">
+                    <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dolorum alias voluptatibus! Aperiam, error veniam, commodi cupiditate neque itaque sunt rem, repellat in dolor aliquid soluta sapiente cum dolorem maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam esse ratione minima inventore iusto dolores expedita cum fugit itaque eum quibusdam praesentium natus quis laborum, a repudiandae magnam reprehenderit! Odit?</p>
+                    </div>
+
+                    <div class="coluna">
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus a animi. Facere nesciunt ipsa sint fugit, ipsam consequuntur libero fugiat pariatur possimus officia itaque doloribus id expedita, voluptatum atque.</p>
+                    </div>
+
+                    <div class="coluna">
+                        <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa neque totam nam distinctio et, ducimus corrupti dolores. Odio soluta sequi a totam, at autem aperiam architecto, sapiente quaerat veritatis quo.</p>
+                    </div>
+
+                    <div class="coluna">
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis alias expedita repellendus cum quo illum mollitia nihil atque, provident velit dicta voluptatibus facere dignissimos animi iusto, accusantium doloremque impedit iste.</p>
+                    </div>
+                    </div>
+                
+            </article>
+        </main>
+        <footer class="footer1">
+            <p>Este é um rodapé</p>
+        </footer>
+        <footer class="footer2">
+        </footer>
+
+</html>
